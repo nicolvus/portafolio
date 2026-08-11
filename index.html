@@ -2,234 +2,287 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nicolás Salinas Muñoz | Ingeniería Civil Informática</title>
-<meta name="description" content="Portafolio de Nicolás Salinas Muñoz, estudiante de Ingeniería Civil Informática. Desarrollo de software, bases de datos, redes, big data e inteligencia artificial.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nicolás Salinas Muñoz</title>
+<meta name="description" content="Estudiante de Ingeniería Civil Informática en la Universidad Autónoma de Chile. Busco una práctica profesional en TI.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 fill=%22%23fcfcfa%22/><text x=%2216%22 y=%2223%22 font-family=%22Georgia,serif%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%232F5D50%22>N</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="noise"></div>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 
-<button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
-  <span class="icon-sun">☀</span><span class="icon-moon">☾</span>
-</button>
+<div class="wrap">
 
-<nav id="navbar" class="navbar">
-  <div class="nav-inner">
-    <a href="#home" class="logo">NS<span>.</span></a>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#home" class="nav-link">Inicio</a></li>
-      <li><a href="#about" class="nav-link">Perfil</a></li>
-      <li><a href="#skills" class="nav-link">Habilidades</a></li>
-      <li><a href="#knowledge" class="nav-link">Conocimientos</a></li>
-      <li><a href="#experience" class="nav-link">Experiencia</a></li>
-      <li><a href="#projects" class="nav-link">Proyectos</a></li>
-      <li><a href="#contact" class="nav-link btn-nav">Contacto</a></li>
-    </ul>
-  </div>
-</nav>
+  <header class="letterhead">
+    <p class="letterhead__name">Nicolás Salinas Muñoz</p>
+    <p class="letterhead__where">Santiago, Chile</p>
+  </header>
 
-<main>
+  <main id="contenido">
 
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
-    <div class="container hero-inner">
-      <p class="eyebrow reveal">/ hola, soy</p>
-      <h1 class="hero-name reveal">Nicolás Salinas Muñoz</h1>
-      <h2 class="hero-role reveal">
-        <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
-      </h2>
-      <p class="hero-desc reveal">
-        Estudiante de <strong>Ingeniería Civil Informática</strong> en la Universidad Autónoma de Chile.
-        Formación integral en desarrollo de software, bases de datos, redes, big data e inteligencia artificial.
-        Busco una <strong>práctica profesional</strong> en TI para aportar, aprender y crecer en un entorno real.
+    <!-- Apertura -->
+    <section class="opening">
+      <p class="lead">Busco una <em>práctica profesional</em> en TI.</p>
+      <p class="lead-sub">
+        Estudio Ingeniería Civil Informática en la Universidad Autónoma de Chile
+        desde 2021. En el camino pasé por desarrollo, bases de datos, redes,
+        big data e inteligencia artificial.
       </p>
-      <div class="hero-actions reveal">
-        <a href="#contact" class="btn btn-primary">Contáctame</a>
-        <a href="assets/CV_Nicolas_Salinas_Munoz.pdf" class="btn btn-ghost" download>Descargar CV ↓</a>
-      </div>
-      <div class="hero-social reveal">
-        <a href="mailto:n.salinas.munoz200@gmail.com" aria-label="Email" title="Email">
-          <svg viewBox="0 0 24 24"><path d="M2 5h20v14H2V5zm2 2v.01L12 13l8-5.99V7H4zm0 2.24V17h16V9.24l-8 5.99-8-5.99z"/></svg>
-        </a>
-        <a href="https://linkedin.com/in/nicolassalinas-m" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9h4v12H3V9zm7 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.8c0-1.38-.02-3.16-1.93-3.16-1.93 0-2.23 1.5-2.23 3.06V21h-4V9z"/></svg>
-        </a>
-        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.91c-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
-        </a>
-      </div>
-    </div>
-    <a href="#about" class="scroll-hint" aria-label="Bajar">
-      <span></span>
-    </a>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container">
-      <p class="section-tag reveal">01 · Perfil</p>
-      <h2 class="section-title reveal">Sobre mí</h2>
-      <div class="about-grid">
-        <p class="about-text reveal">
-          Soy estudiante de Ingeniería Civil Informática con formación integral en desarrollo de software,
-          bases de datos, redes, sistemas operativos, arquitectura de software, big data e inteligencia artificial.
-          Cuento con conocimientos prácticos y teóricos en distintas áreas de la informática, lo que me permite
-          adaptarme con facilidad a nuevos desafíos técnicos.
-          <br><br>
-          Complemento esta formación con experiencia laboral que ha fortalecido mi organización, comunicación,
-          trabajo en equipo y resolución de problemas bajo presión. Busco una práctica profesional en cualquier
-          área de TI para aplicar mis conocimientos, aportar con responsabilidad y compromiso, y seguir aprendiendo
-          en un entorno laboral real.
-        </p>
-        <div class="about-cards reveal">
-          <div class="info-card">
-            <span class="info-label">Educación</span>
-            <span class="info-value">Ingeniería Civil Informática<br><small>Universidad Autónoma de Chile · 2021–2027</small></span>
-          </div>
-          <div class="info-card">
-            <span class="info-label">Cursando</span>
-            <span class="info-value">Google Cybersecurity &amp; Google AI Essentials<br><small>Coursera · Beca Talento Digital Chile</small></span>
-          </div>
-          <div class="info-card">
-            <span class="info-label">Ubicación</span>
-            <span class="info-value">Santiago, Chile</span>
-          </div>
-          <div class="info-card">
-            <span class="info-label">Idiomas</span>
-            <span class="info-value">Español (nativo) · Inglés (avanzado)</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section section-alt">
-    <div class="container">
-      <p class="section-tag reveal">02 · Habilidades técnicas</p>
-      <h2 class="section-title reveal">Stack &amp; Herramientas</h2>
-      <div class="skills-grid" id="skills-grid"></div>
-    </div>
-  </section>
-
-  <!-- KNOWLEDGE AREAS -->
-  <section id="knowledge" class="section">
-    <div class="container">
-      <p class="section-tag reveal">03 · Áreas de conocimiento</p>
-      <h2 class="section-title reveal">Lo que domino por área</h2>
-      <p class="section-sub reveal">Formación consolidada durante la carrera, organizada por dominio de especialización.</p>
-      <div class="accordion reveal" id="accordion"></div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section section-alt">
-    <div class="container">
-      <p class="section-tag reveal">04 · Experiencia</p>
-      <h2 class="section-title reveal">Trayectoria profesional</h2>
-      <div class="timeline" id="timeline"></div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <div class="container">
-      <p class="section-tag reveal">05 · Proyectos</p>
-      <h2 class="section-title reveal">Proyectos académicos</h2>
-      <div class="projects-grid" id="projects-grid"></div>
-    </div>
-  </section>
-
-  <!-- SOFT SKILLS -->
-  <section class="section section-alt">
-    <div class="container">
-      <p class="section-tag reveal">06 · Competencias</p>
-      <h2 class="section-title reveal">Competencias transferibles</h2>
-      <div class="soft-grid reveal">
-        <div class="soft-card">
-          <span class="soft-icon">🧩</span>
-          <h3>Resolución de problemas</h3>
-          <p>Análisis y solución de imprevistos bajo presión en entornos de alta exigencia.</p>
-        </div>
-        <div class="soft-card">
-          <span class="soft-icon">🤝</span>
-          <h3>Trabajo en equipo</h3>
-          <p>Coordinación efectiva con equipos multidisciplinarios y comunicación clara.</p>
-        </div>
-        <div class="soft-card">
-          <span class="soft-icon">🎯</span>
-          <h3>Organización</h3>
-          <p>Atención al detalle, planificación y gestión de recursos con estándares de calidad.</p>
-        </div>
-        <div class="soft-card">
-          <span class="soft-icon">✅</span>
-          <h3>Compromiso</h3>
-          <p>Responsabilidad y compromiso constante con el aprendizaje y los resultados.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section contact-section">
-    <div class="container">
-      <p class="section-tag reveal">07 · Contacto</p>
-      <h2 class="section-title reveal">Conversemos</h2>
-      <p class="section-sub reveal">
-        ¿Buscas a alguien para una práctica profesional o un proyecto de TI? Escríbeme, con gusto conversamos.
+      <p class="meta">Disponible desde ahora · Jornada completa o part-time</p>
+      <p class="actions">
+        <a class="button" href="mailto:n.salinas.munoz200@gmail.com">Escríbeme</a>
+        <a class="quiet" href="assets/CV_Nicolas_Salinas_Munoz.pdf" download>Descargar el CV (PDF)</a>
       </p>
-      <div class="contact-grid reveal">
-        <a class="contact-card" href="mailto:n.salinas.munoz200@gmail.com">
-          <span class="contact-icon">✉</span>
-          <div>
-            <span class="contact-label">Email</span>
-            <span class="contact-value">n.salinas.munoz200@gmail.com</span>
-          </div>
-        </a>
-        <a class="contact-card" href="tel:+56991222465">
-          <span class="contact-icon">☎</span>
-          <div>
-            <span class="contact-label">Teléfono</span>
-            <span class="contact-value">+56 9 9122 2465</span>
-          </div>
-        </a>
-        <a class="contact-card" href="https://linkedin.com/in/nicolassalinas-m" target="_blank" rel="noopener">
-          <span class="contact-icon">in</span>
-          <div>
-            <span class="contact-label">LinkedIn</span>
-            <span class="contact-value">linkedin.com/in/nicolassalinas-m</span>
-          </div>
-        </a>
-        <div class="contact-card">
-          <span class="contact-icon">📍</span>
-          <div>
-            <span class="contact-label">Ubicación</span>
-            <span class="contact-value">Santiago, Chile</span>
-          </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">Sobre mí</h2>
+        <div class="column">
+          <p>
+            Llevo cinco años en la carrera. Es una formación ancha más que angosta:
+            alcancé a ver desarrollo de software, bases de datos, redes, sistemas
+            operativos, arquitectura, big data e inteligencia artificial. Eso me deja
+            cómodo entrando a temas nuevos y entendiendo cómo se conectan las piezas.
+          </p>
+          <p>
+            En paralelo trabajo part-time desde 2023. No es un trabajo de TI, pero es
+            donde aprendí a organizarme, a coordinarme con un equipo y a resolver
+            problemas cuando hay poco tiempo y mucha gente esperando.
+          </p>
+          <p>
+            Ahora estoy cursando Google Cybersecurity y Google AI Essentials con la
+            beca Talento Digital Chile.
+          </p>
+
+          <dl class="facts">
+            <dt>Carrera</dt>
+            <dd>Ingeniería Civil Informática, Universidad Autónoma de Chile (2021&ndash;2027)</dd>
+            <dt>Cursando</dt>
+            <dd>Google Cybersecurity y Google AI Essentials, Coursera</dd>
+            <dt>Idiomas</dt>
+            <dd>Español nativo, inglés avanzado</dd>
+          </dl>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-</main>
+    <!-- Índice de conocimientos -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">Lo que sé</h2>
+        <div class="column">
+          <dl class="index">
+            <dt>Lenguajes</dt>
+            <dd>Python, Java, C/C++, JavaScript, SQL y Dart</dd>
 
-<footer class="footer">
-  <div class="container footer-inner">
-    <p>© <span id="year"></span> Nicolás Salinas Muñoz. Todos los derechos reservados.</p>
-    <p class="footer-made">Hecho con HTML, CSS &amp; JS · Hosteado en GitHub Pages</p>
-  </div>
-</footer>
+            <dt>Web y móvil</dt>
+            <dd>HTML5, CSS3, Bootstrap, React, Node.js y Flutter</dd>
 
-<script src="js/script.js"></script>
+            <dt>Bases de datos</dt>
+            <dd>PostgreSQL, MongoDB y Supabase</dd>
+
+            <dt>Big data</dt>
+            <dd>Apache Spark y PySpark, Hadoop y HDFS, MapReduce, Kafka</dd>
+
+            <dt>Inteligencia artificial</dt>
+            <dd>K-Means, redes neuronales convolucionales y nociones de hardware acelerador (FPGA, GPU, DSP)</dd>
+
+            <dt>Redes</dt>
+            <dd>Cisco Packet Tracer, OSPF, VLANs, STP, EtherChannel, HSRP, ACLs y NAT/PAT</dd>
+
+            <dt>Arquitectura</dt>
+            <dd>MVC, PAC, Microkernel, Pipes &amp; Filters, UML, BPMN 2.0 y CI/CD</dd>
+
+            <dt>Sistemas y nube</dt>
+            <dd>Linux (Red Hat), Google Cloud Platform, Cloudera y nociones de ISO 27001</dd>
+
+            <dt>Método</dt>
+            <dd>Git, Scrum y Kanban</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- En profundidad -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">En profundidad</h2>
+        <div class="column">
+          <p class="column__note">
+            El detalle de cada área, por si quieres saber hasta dónde llega.
+          </p>
+
+          <details class="topic">
+            <summary>Desarrollo de software</summary>
+            <div class="topic__body">
+              <p>
+                Diseño y análisis de complejidad de algoritmos. Manejo de arreglos,
+                matrices, listas enlazadas, pilas, colas, árboles y diccionarios.
+                Programación orientada a objetos aplicada de verdad: abstracción,
+                encapsulamiento, herencia y polimorfismo, con el código estructurado
+                en patrones como MVC y repositorio. Aplicaciones web completas con
+                HTML5, CSS3, Bootstrap y React en el front, y Node.js o Python detrás.
+              </p>
+            </div>
+          </details>
+
+          <details class="topic">
+            <summary>Datos y big data</summary>
+            <div class="topic__body">
+              <p>
+                En relacional: modelos entidad-relación, normalización hasta tercera
+                forma normal, consultas complejas y lógica de negocio con triggers y
+                procedimientos almacenados en PostgreSQL. En NoSQL: modelado de datos
+                jerárquicos en documentos JSON y BSON con MongoDB, validación de
+                esquemas y consultas desde Python con PyMongo. En volumen: el
+                ecosistema Hadoop con HDFS, y procesamiento batch y en tiempo real con
+                Apache Spark y PySpark.
+              </p>
+            </div>
+          </details>
+
+          <details class="topic">
+            <summary>Inteligencia artificial</summary>
+            <div class="topic__body">
+              <p>
+                Entrenamiento e interpretación de modelos de clustering no supervisado
+                con K-Means para segmentar datos. Del lado de deep learning, la
+                arquitectura de las redes neuronales convolucionales y los principios
+                de aceleración por hardware especializado: FPGAs, GPUs y DSPs.
+              </p>
+            </div>
+          </details>
+
+          <details class="topic">
+            <summary>Redes y seguridad</summary>
+            <div class="topic__body">
+              <p>
+                Diseño, configuración y resolución de problemas en topologías complejas
+                con Cisco Packet Tracer. OSPF monoárea y multiárea, VLANs, enlaces
+                troncales, Spanning Tree en sus variantes PVST y Rapid PVST,
+                agregación con EtherChannel y redundancia de gateway con HSRP. Para
+                proteger la infraestructura, listas de control de acceso estándar y
+                extendidas, y traducción de direcciones con NAT y PAT.
+              </p>
+            </div>
+          </details>
+
+          <details class="topic">
+            <summary>Arquitectura y procesos</summary>
+            <div class="topic__body">
+              <p>
+                Modelado y optimización de procesos de negocio con BPMN 2.0.
+                Identificación de atributos de calidad (disponibilidad,
+                modificabilidad, seguridad, rendimiento) y diseño de arquitecturas que
+                los soporten. Del lado operativo, automatización, integración continua
+                y entrega continua.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">Proyectos</h2>
+        <div class="column">
+
+          <article class="entry">
+            <h3 class="entry__title">TuneFinder</h3>
+            <p>
+              Aplicación Android que identifica la tonalidad musical de una canción a
+              partir de un fragmento grabado con el micrófono. La hice con Dart y
+              Flutter, con un backend en Django que procesa el audio.
+            </p>
+            <p class="entry__meta">Flutter · Dart · Django · Python</p>
+          </article>
+
+          <article class="entry">
+            <h3 class="entry__title">Sistema de gestión de prácticas profesionales</h3>
+            <p>
+              Plataforma web que digitalizó el proceso de prácticas de la universidad,
+              que hasta entonces era manual. Incluye los roles de administrador y de
+              encargado de prácticas, seguimiento de avances, solicitud y calificación
+              de informes, y la comunicación con profesores y empresas.
+            </p>
+            <p class="entry__meta">React · Supabase</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">Experiencia</h2>
+        <div class="column">
+
+          <article class="entry entry--dated">
+            <p class="entry__year">2025<span class="entry__year-tail">&ndash;hoy</span></p>
+            <div>
+              <h3 class="entry__title">Asistente de salón VIP <span class="entry__org">Grupo Expro</span></h3>
+              <p>
+                Coordino procesos operativos y logísticos en un entorno de alta
+                exigencia: gestión de recursos, estándares de calidad y resolución de
+                imprevistos con el reloj corriendo.
+              </p>
+            </div>
+          </article>
+
+          <article class="entry entry--dated">
+            <p class="entry__year">2023<span class="entry__year-tail">&ndash;2025</span></p>
+            <div>
+              <h3 class="entry__title">Asesor de ventas <span class="entry__org">Sparta</span></h3>
+              <p>
+                Usé software POS y Excel para control operativo y análisis de stock.
+                Analicé necesidades de clientes para proponerles soluciones concretas.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="band">
+      <div class="band__inner">
+        <h2 class="label">Contacto</h2>
+        <div class="column">
+          <dl class="index">
+            <dt>Correo</dt>
+            <dd><a href="mailto:n.salinas.munoz200@gmail.com">n.salinas.munoz200@gmail.com</a></dd>
+
+            <dt>Teléfono</dt>
+            <dd><a href="tel:+56991222465">+56 9 9122 2465</a></dd>
+
+            <dt>LinkedIn</dt>
+            <dd><a href="https://linkedin.com/in/nicolassalinas-m" target="_blank" rel="noopener">linkedin.com/in/nicolassalinas-m</a></dd>
+
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/nicolvus" target="_blank" rel="noopener">github.com/nicolvus</a></dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <p>Nicolás Salinas Muñoz &middot; <span id="y">2026</span></p>
+  </footer>
+
+</div>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
