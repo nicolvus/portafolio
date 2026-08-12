@@ -17,6 +17,7 @@
 
   --serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
   --sans:  'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --mono:  'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --measure: 37rem;
   --gutter:  11rem;
@@ -446,6 +447,19 @@ a:hover {
 .topic__body {
   padding: 0 0 1.4rem;
   color: var(--ink-2);
+}
+
+.topic__body p + p { margin-top: -0.2em; }
+
+/* nombres de API y palabras clave: se distinguen del texto corrido */
+.topic__body code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  color: var(--ink);
+  background: var(--tint);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  white-space: nowrap;
 }
 
 /* ---------- Tarjetas (proyectos) ---------- */
